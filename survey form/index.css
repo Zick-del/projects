@@ -1,0 +1,29 @@
+body {
+	background-color: #EAE4E3;
+
+}
+
+p {
+	
+	font-family: 'Sen', sans-serif;
+}
+
+
+#form-group {
+	margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+#survey-form {
+	font-size: 25px;
+	align: center;
+	display: block;
+	background-color: #EAE977;
+	text-align: center;
+	margin: 50px 300px 50px 300px;
+	font-family: 'Sen', sans-serif;
+}
+
+header {
+	text-align: center;
+}
