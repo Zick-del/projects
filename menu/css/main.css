@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    
+    left: -250px;
+    background: #414141;
+    border-right: rgb(140, 153, 153) solid 5px;
+    text-align-last: center;
+
+    -moz-transition: all 400ms;
+    -webkit-transition: all 400ms;
+    transition: all 400ms;
+
+       
+}
+
+#sidebar.active {
+    left: 0px;
+    
+}
+
+#sidebar li:first-child {
+
+    color: beige;
+    padding: 15px 5px;
+    font-size: 1.9em;    
+}
+
+#sidebar li:not(:first-child) {
+    font-size: 1.1em;
+    padding: 10px;
+
+}
+
+#sidebar li a {
+    color: beige;
+    text-decoration: none;
+}
+
+#sidebar li a:hover {
+    color: rgb(210, 247, 247);
+    transition: 400ms;
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    left: 250px;
+    top: 20px;
+    background: rgb(140, 153, 153);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 7px 5px;
+    cursor: pointer;
+}
+
+#sidebar .toggle-btn:hover {background: #414141;}
+#sidebar .toggle-btn:hover span {background: rgb(140, 153, 153);}
+
+#sidebar .toggle-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 3px 5px;
+    background: #414141;
+}

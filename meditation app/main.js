@@ -76,3 +76,5 @@ const app = () => {
 }
 
 app();
+
+console.log('Hi');
