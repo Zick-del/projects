@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Stardos+Stencil&display=swap');
+.nav {
+  grid-area: n;
+  background-color: #f5ffbf;
+}
+
+.item {
+  color: rgb(29, 29, 31);
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.item.active {
+  color: violet;
+}
