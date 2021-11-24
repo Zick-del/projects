@@ -7,10 +7,10 @@
 .item {
   color: rgb(29, 29, 31);
   font-family: 'Kumbh Sans', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .item.active {
-  color: violet;
+  color: rgb(143, 143, 143);
 }
